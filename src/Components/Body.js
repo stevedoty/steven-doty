@@ -65,7 +65,10 @@ function Body() {
       return (
         <Card style={{textAlign:"center"}}>
           <Card.Header>
-            <Accordion.Toggle as={Button} variant="link" eventKey={i.toString()}>
+            <Accordion.Toggle
+              as={Button}
+              variant="link"
+              eventKey={i.toString()}>
               {item.title}
             </Accordion.Toggle>
           </Card.Header>
