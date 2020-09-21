@@ -26,6 +26,30 @@ let contacts = [
   },
 ]
 
+let accordionItems = [
+{
+  title:"Skills",
+  body:"skill icons & labels"
+},
+{
+  title:"Projects",
+  body:"project card tiles"
+},
+{
+  title:"Experience",
+  body:"experince timeline"
+},
+{
+  title:"Education",
+  body:"Education timeline"
+},
+{
+  title:"Bio",
+  body:"Bio profile"
+},
+]
+
+
 function Body() {
   return (
     <div className="App-body">
@@ -37,56 +61,20 @@ function Body() {
     <div>Experience in turning ideas into reality</div>
 
     <Accordion>
-      <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="0">
-            Skils
-          </Accordion.Toggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="0">
-          <Card.Body>Hello! I'm the body</Card.Body>
-        </Accordion.Collapse>
-      </Card>
-      <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="1">
-            Projects
-          </Accordion.Toggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="1">
-          <Card.Body>Hello! I'm another body</Card.Body>
-        </Accordion.Collapse>
-      </Card>
-      <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="2">
-            Experience
-          </Accordion.Toggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="2">
-          <Card.Body>Hello! I'm another body</Card.Body>
-        </Accordion.Collapse>
-      </Card>
-      <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="3">
-            Education
-          </Accordion.Toggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="3">
-          <Card.Body>Hello! I'm another body</Card.Body>
-        </Accordion.Collapse>
-      </Card>
-      <Card>
-        <Card.Header>
-          <Accordion.Toggle as={Button} variant="link" eventKey="4">
-            Bio
-          </Accordion.Toggle>
-        </Card.Header>
-        <Accordion.Collapse eventKey="4">
-          <Card.Body>Hello! I'm another body</Card.Body>
-        </Accordion.Collapse>
-      </Card>
+    {accordionItems.map((item, i)=>{
+      return (
+        <Card style={{textAlign:"center"}}>
+          <Card.Header>
+            <Accordion.Toggle as={Button} variant="link" eventKey={i.toString()}>
+              {item.title}
+            </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey={i.toString()}>
+            <Card.Body>{item.body}</Card.Body>
+          </Accordion.Collapse>
+        </Card>
+      )
+    })}
     </Accordion>
 
 
