@@ -1,31 +1,73 @@
 import React from 'react';
 import {Accordion, Card, Button} from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { library, coffee } from '@fortawesome/fontawesome-svg-core'
+import {
+  fab,
+  fas,
+  faReact,
+  faJs,
+  faHtml5,
+  faCss3,
+  faSass,
+  faBootstrap,
+  faNode,
+  faStripe,
+  faPython,
+  faJava
+} from '@fortawesome/free-brands-svg-icons'
 
 
+// const element = <FontAwesomeIcon icon={faCoffee} />
+// const element1 = <FontAwesomeIcon icon={fab fa-react} />
+// const element = <FontAwesomeIcon icon={faCoffee} />
 
-let contacts = [
+
+// redux, ts, mongodb,firebase, express
+// kotlin, flutter, dart, C++,
+let skillIcons = [
   {
-    name:"email",
-    link:"",
-    icon:""
+    name:"React",
+    icon:faReact
   },
   {
-    name:"phone",
-    link:"",
-    icon:""
+    name:"Javascript",
+    icon:faJs
   },
   {
-    name:"github",
-    link:"",
-    icon:""
+    name:"HTML5",
+    icon:faHtml5
   },
   {
-    name:"linkedin",
-    link:"",
-    icon:""
+    name:"CSS",
+    icon:faCss3
   },
+  {
+    name:"Sass",
+    icon:faSass
+  },
+  {
+    name:"React",
+    icon:faBootstrap
+  },
+  {
+    name:"React",
+    icon:faNode
+  },
+  {
+    name:"React",
+    icon:faStripe
+  },
+  {
+    name:"React",
+    icon:faPython
+  },
+  {
+    name:"React",
+    icon:faJava
+  }
 ]
-
 let accordionItems = [
 {
   title:"Skills",
@@ -54,13 +96,35 @@ function Body() {
   return (
     <div className="App-body">
 
-    <div>{contacts.map((contact, i)=>{
-      return <> {contact.name} </>
-    })}</div>
+
 
     <div>Experience in turning ideas into reality</div>
 
+    <div style={{backgroundColor:"grey", height:"200px", width:"100%"}}>
+
+      {skillIcons.map((skill, j) => {
+        return (
+          <div
+            style={{
+              margin:"4px",
+              padding:"4px",
+              float:"left",
+              border:"2px solid white",
+              borderRadius:"50%",
+              color:"white",
+              height:"38px",
+              width:"38px"}}>
+            <FontAwesomeIcon
+            icon={skill.icon}
+            style={{ color:"white", height:"100%", width:"100%"}}/>
+          </div>
+        )
+      })}
+
+    </div>
+
     <Accordion>
+
     {accordionItems.map((item, i)=>{
       return (
         <Card style={{textAlign:"center"}}>

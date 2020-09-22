@@ -38,7 +38,7 @@ class ResumeModal extends Component{
       return (
         <div style={{textAlign:"center"}}>
           <Button variant="primary" onClick={() => setModalShow(true)}>
-            View Resume
+            Resume / CV
           </Button>
 
           <MyVerticallyCenteredModal
