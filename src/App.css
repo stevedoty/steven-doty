@@ -1,1 +1,20 @@
-
+.App-body{
+   background-color:#007bff;
+   color:white;
+   width:100%;
+}
+.banner{
+  text-align:center;
+  padding-top:40px;
+}
+.messageMe-button{
+  background-color:white;
+  color:#343a40;
+  margin-left:10px;
+}
+.messageMe-button:hover{
+  cursor:pointer;
+}
+.messageMe-button_text{
+  padding: 5px 10px;
+}
