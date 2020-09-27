@@ -37,8 +37,8 @@ class MessageMe extends Component{
 
       return (
         <div style={{textAlign:"center"}}>
-          <Badge className="messageMe-button" pill onClick={() => setModalShow(true)}>
-            <div className="messageMe-button_text">Message</div>
+          <Badge id="messageMe-button" className="modal-button pill-button" pill onClick={() => setModalShow(true)}>
+            <div id="messageMe-button_text" className="modal-button_text pill-button_text">Message</div>
           </Badge>
 
           <MyVerticallyCenteredModal

@@ -7,14 +7,29 @@
   text-align:center;
   padding-top:40px;
 }
-.messageMe-button{
+.modal-container{
+  text-align: center;
+  padding-left: 50%
+}
+.modal-button{
+  position: relative;
+  left: -100%;
+}
+
+.pill-button{
   background-color:white;
   color:#343a40;
-  margin-left:10px;
+  margin: 0 38px;
 }
-.messageMe-button:hover{
+.pill-button:hover{
   cursor:pointer;
 }
-.messageMe-button_text{
+.pill-button_text{
   padding: 5px 10px;
+}
+.section-header{
+  font-family: cursive;
+  font-size: 1.68rem;
+  font-weight: lighter;
+  color: #343a40;
 }

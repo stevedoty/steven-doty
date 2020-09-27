@@ -12,10 +12,6 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { layergroup, coffee } from '@fortawesome/fontawesome-svg-core'
 
 
-import ResumeModal from './ResumeModal'
-
-
-
 let contactIcons = [
   {
     name:"email",
@@ -54,7 +50,6 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ border:"none", padding:"none"}}/>
 
         <Navbar.Collapse id="basic-navbar-nav">
-          <ResumeModal/>
           <Nav className="mr-auto">
             <Nav.Link href="#home">Skills</Nav.Link>
             <Nav.Link href="#link">Projects</Nav.Link>

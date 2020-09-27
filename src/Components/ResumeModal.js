@@ -1,5 +1,5 @@
 import React, {Component, useState} from 'react'
-import {Modal, Button} from 'react-bootstrap'
+import {Modal, Button, Badge} from 'react-bootstrap'
 
 
 class ResumeModal extends Component{
@@ -37,11 +37,10 @@ class ResumeModal extends Component{
 
       return (
         <div style={{textAlign:"center"}}>
-          <Button
-          variant="primary"
-          onClick={() => setModalShow(true)}>
-            Resume
-          </Button>
+          <Badge id="messageMe-button" className="modal-button pill-button" pill onClick={() => setModalShow(true)}>
+            <div id="messageMe-button_text" className="modal-button_text pill-button_text">Resume</div>
+          </Badge>
+
 
           <MyVerticallyCenteredModal
             show={modalShow}

@@ -32,10 +32,8 @@ import cIcon from '@iconify/icons-logos/c'
 import mysqlIcon from '@iconify/icons-logos/mysql'
 import dockerIcon from '@iconify/icons-logos/docker'
 
-
+import ResumeModal from './ResumeModal'
 import MessageMeModal from './MessageMeModal'
-
-
 
 
 let skillColorIcons = [
@@ -187,24 +185,22 @@ function Body() {
     <div className="App-body">
       <div className="banner" style={{textAlign:"center", padding:"40px 0 20px 0"}}>
         <p>Full-stack developer. Build your idea now.</p>
-          <MessageMeModal />
+          <div className="modal-container" style={{display:"flex"}}>
+            <ResumeModal />
+            <MessageMeModal />
+          </div>
       </div>
 
       <div>
-        <Accordion>
-              <Card style={{textAlign:"center"}}>
-                <Card.Header>
-                  <Accordion.Toggle
-                    as={Button}
-                    variant="link"
-                    eventKey="1">
-                    SKILLS
-                  </Accordion.Toggle>
+
+              <Card className="section" style={{textAlign:"center"}}>
+                <Card.Header className="section-header">
+                  Skills
                 </Card.Header>
-                <Accordion.Collapse eventKey="1">
-                  <Card.Body style={{backgroundColor:"#343a40", height:"800px"}}>
+
+                  <Card.Body style={{backgroundColor:"#343a40"}}>
                       {skillColorIcons.map((skillIcon, j) => {return(
-                        <div style={{textAlign:"center", width:"100px", margin:"5px", float:"left"}}>
+                        <span style={{textAlign:"center", width:"85px", float:"left"}}>
                           <Icon
                             icon={skillIcon.iconLogo}
                             style={{
@@ -215,48 +211,44 @@ function Body() {
                               width:"62px"
                           }}/>
                           <p style={{color:"white", textAlign:"center"}}>{skillIcon.iconTitle}</p>
-                        </div>
+                        </span>
                       )})}
                   </Card.Body>
-                </Accordion.Collapse>
-              </Card>
-              <Card style={{textAlign:"center"}}>
-                <Card.Header>
-                  <Accordion.Toggle
-                    as={Button}
-                    variant="link"
-                    eventKey="2">
-                    RELEVANT PROJECTS
-                  </Accordion.Toggle>
-                </Card.Header>
-                <Accordion.Collapse eventKey="2">
-                  <Card.Body style={{backgroundColor:"#343a40", height:"500px", color:"white", textAlign:"left"}}>
-                  <h2><b>eBay Skin-React & Skin-CSS,</b></h2><h6>Summer 2020</h6>
-                  <ul>
-                    <li>Skin-React eases the use of the original skin for developers condensing it into React-styled components.</li>
-                    <li>Scalability, developer performance, and profits all benefit</li>
-                    <li>https://github.com/eBay/skin-react Website</li>
-                  </ul>
-                  <h2><b>Helping Families in Silicon Valley,</b></h2><h6>Spring 2019 - Present</h6>
-                  <ul>
-                    <li>Refactored to React</li>
-                    <li>Maintain and update website</li>
-                    <li>http://www.helpingfamiliesisn.org/</li>
-                  </ul>
 
-                  </Card.Body>
-                </Accordion.Collapse>
               </Card>
-              <Card style={{textAlign:"center"}}>
-                <Card.Header>
-                  <Accordion.Toggle
-                    as={Button}
-                    variant="link"
-                    eventKey="3">
-                    RELEVANT EXPERIENCE
-                  </Accordion.Toggle>
+              <Card className="section" style={{textAlign:"center"}}>
+                <Card.Header className="section-header">
+                  Relevant Projects
                 </Card.Header>
-                <Accordion.Collapse eventKey="3">
+
+                  <Card.Body style={{backgroundColor:"#343a40", height:"500px", color:"white", textAlign:"left"}}>
+                    <h2><b>eBay Skin-React & Skin-CSS,</b></h2><h6>Summer 2020</h6>
+                    <ul>
+                      <li>Skin-React eases the use of the original skin for developers condensing it into React-styled components.</li>
+                      <li>Scalability, developer performance, and profits all benefit</li>
+                      <li>https://github.com/eBay/skin-react Website</li>
+                    </ul>
+                    <h2><b>Helping Families in Silicon Valley,</b></h2><h6>Spring 2019 - Present</h6>
+                    <ul>
+                      <li>Refactored to React</li>
+                      <li>Maintain and update website</li>
+                      <li>http://www.helpingfamiliesisn.org/</li>
+                    </ul>
+
+                    <Badge className="pill-button" pill>
+                      <div className="pill-button_text">github</div>
+                    </Badge>
+                    <Badge className="pill-button" pill>
+                      <div className="pill-button_text">github.io</div>
+                    </Badge>
+                  </Card.Body>
+
+              </Card>
+              <Card className="section" style={{textAlign:"center"}}>
+                <Card.Header className="section-header">
+                  Relevant Experience
+                </Card.Header>
+
                   <Card.Body style={{backgroundColor:"#343a40", height:"600px", color:"white", textAlign:"left"}}>
                   <h2><b>Software Engineer,</b></h2> <h6>eBay, Mountain View CA</h6>
                   <ul>
@@ -275,28 +267,26 @@ function Body() {
                     <li>Optimized team workflow utilizing each member’s strengths to full potential.</li>
                     <li>Managed multiple projects while working on the field in the most expensive homes.</li>
                   </ul>
+                  <Badge className="pill-button" pill>
+                    <div className="pill-button_text">more info...</div>
+                  </Badge>
                   </Card.Body>
-                </Accordion.Collapse>
+
               </Card>
-              <Card style={{textAlign:"center"}}>
-                <Card.Header>
-                  <Accordion.Toggle
-                    as={Button}
-                    variant="link"
-                    eventKey="4">
-                    EDUCATION
-                  </Accordion.Toggle>
+              <Card className="section" style={{textAlign:"center"}}>
+                <Card.Header className="section-header">
+                  Education
                 </Card.Header>
-                <Accordion.Collapse eventKey="4">
+
                   <Card.Body style={{backgroundColor:"#343a40", height:"200px", color:"white", textAlign:"left"}}>
                   <h2><b>BS Electrical Engineering</b></h2>
                   <h6>San Jose State Univerity, San Jose CA</h6>
                   <h2><b>AS Engineering</b></h2>
                   <h6>Cañada College, Redwood City CA</h6>
                   </Card.Body>
-                </Accordion.Collapse>
+
               </Card>
-        </Accordion>
+
       </div>
     </div>
   );
