@@ -185,7 +185,7 @@ function Body() {
     <div className="App-body">
       <div className="banner" style={{textAlign:"center", padding:"40px 0 20px 0"}}>
         <p>Full-stack developer. Build your idea now.</p>
-          <div className="modal-container" style={{display:"flex"}}>
+          <div className="modal-container" style={{width: "100%"}}>
             <ResumeModal />
             <MessageMeModal />
           </div>
@@ -193,14 +193,17 @@ function Body() {
 
       <div>
 
-              <Card className="section" style={{textAlign:"center"}}>
-                <Card.Header className="section-header">
+              <Card className="section" style={{float:"left"}}>
+                <Card.Header className="section-header" style={{textAlign:"center"}}>
                   Skills
                 </Card.Header>
 
                   <Card.Body style={{backgroundColor:"#343a40"}}>
                       {skillColorIcons.map((skillIcon, j) => {return(
-                        <span style={{textAlign:"center", width:"85px", float:"left"}}>
+
+                        <div style={{width:"85px", textAlign:"center"}}>
+                          <span style={{color:"white"}}>{skillIcon.iconTitle}</span>
+                          <br/>
                           <Icon
                             icon={skillIcon.iconLogo}
                             style={{
@@ -210,8 +213,8 @@ function Body() {
                               height:"62px",
                               width:"62px"
                           }}/>
-                          <p style={{color:"white", textAlign:"center"}}>{skillIcon.iconTitle}</p>
-                        </span>
+
+                        </div>
                       )})}
                   </Card.Body>
 
@@ -223,11 +226,9 @@ function Body() {
 
                   <Card.Body style={{backgroundColor:"#343a40", height:"500px", color:"white", textAlign:"left"}}>
                     <h2><b>eBay Skin-React & Skin-CSS,</b></h2><h6>Summer 2020</h6>
-                    <ul>
-                      <li>Skin-React eases the use of the original skin for developers condensing it into React-styled components.</li>
-                      <li>Scalability, developer performance, and profits all benefit</li>
-                      <li>https://github.com/eBay/skin-react Website</li>
-                    </ul>
+                    <p>Skin-React eases the use of the original skin for developers condensing it into React-styled components.</p>
+                      <p>Scalability, developer performance, and profits all benefit</p>
+                      <p>https://github.com/eBay/skin-react Website</p>
                     <h2><b>Helping Families in Silicon Valley,</b></h2><h6>Spring 2019 - Present</h6>
                     <ul>
                       <li>Refactored to React</li>
@@ -246,27 +247,27 @@ function Body() {
               </Card>
               <Card className="section" style={{textAlign:"center"}}>
                 <Card.Header className="section-header">
-                  Relevant Experience
+                  Relevant XP
                 </Card.Header>
 
                   <Card.Body style={{backgroundColor:"#343a40", height:"600px", color:"white", textAlign:"left"}}>
-                  <h2><b>Software Engineer,</b></h2> <h6>eBay, Mountain View CA</h6>
-                  <ul>
-                    <li>Skin-React and Skin-CSS</li>
-                    <li>Maintained scalability and responsiveness throughout my involvement.</li>
-                    <li>Refactored existing javascript components with typescript.</li>
-                    <li>Used typescript to build react components and create an easy to use platform.</li>
-                    <li>Increased accessibility by 12% and performance by 7%.</li>
-                    <li>Maintained live UI error detection.</li>
-                  </ul>
+                  <h2><b>Front-End Software Developer,</b></h2> <h6>eBay, Mountain View CA</h6>
+
+                    <p>Skin-React and Skin-CSS</p>
+                    <p>Maintained scalability and responsiveness throughout my involvement.</p>
+                    <p>Refactored existing javascript components with typescript.</p>
+                    <p>Used typescript to build react components and create an easy to use platform.</p>
+                    <p>Increased accessibility by 12% and performance by 7%.</p>
+                    <p>Maintained live UI error detection.</p>
+
                   <h2><b>Woodworker & Finish Carpenter,</b></h2> <h6>AW Construction, Atherton CA</h6>
-                  <ul>
-                    <li>Helped in a family friend’s company after college.</li>
-                    <li>Became youngest project manager and increased profits 8%</li>
-                    <li>Build beautiful wood furniture with extreme precision and minimal waste.</li>
-                    <li>Optimized team workflow utilizing each member’s strengths to full potential.</li>
-                    <li>Managed multiple projects while working on the field in the most expensive homes.</li>
-                  </ul>
+
+                    <p>Helped in a family friend’s company after college.</p>
+                    <p>Became youngest project manager and increased profits 8%</p>
+                    <p>Build beautiful wood furniture with extreme precision and minimal waste.</p>
+                    <p>Optimized team workflow utilizing each member’s strengths to full potential.</p>
+                    <p>Managed multiple projects while working on the field in the most expensive homes.</p>
+
                   <Badge className="pill-button" pill>
                     <div className="pill-button_text">more info...</div>
                   </Badge>
@@ -274,8 +275,8 @@ function Body() {
 
               </Card>
               <Card className="section" style={{textAlign:"center"}}>
-                <Card.Header className="section-header">
-                  Education
+                <Card.Header className="section-header" style={{fontSize:"158%"}}>
+                  Educación
                 </Card.Header>
 
                   <Card.Body style={{backgroundColor:"#343a40", height:"200px", color:"white", textAlign:"left"}}>

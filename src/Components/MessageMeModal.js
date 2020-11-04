@@ -37,7 +37,7 @@ class MessageMe extends Component{
 
       return (
         <div style={{textAlign:"center"}}>
-          <Badge id="messageMe-button" className="modal-button pill-button" pill onClick={() => setModalShow(true)}>
+          <Badge id="messageMe-button" className="modal-button pill-button" pill onClick={() => setModalShow(true)} style={{margin:"0"}}>
             <div id="messageMe-button_text" className="modal-button_text pill-button_text">Message</div>
           </Badge>
 

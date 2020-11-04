@@ -21,8 +21,9 @@ class ResumeModal extends Component{
           </Modal.Header>
           <Modal.Body>
             <h4>Resume</h4>
+            
             <p>
-              My resume will go here
+              My resume (pdf & download) will go here
             </p>
           </Modal.Body>
           <Modal.Footer>
@@ -37,7 +38,7 @@ class ResumeModal extends Component{
 
       return (
         <div style={{textAlign:"center"}}>
-          <Badge id="messageMe-button" className="modal-button pill-button" pill onClick={() => setModalShow(true)}>
+          <Badge id="messageMe-button" className="modal-button pill-button" pill onClick={() => setModalShow(true)} style={{margin:"0", marginBottom:"0.38rem"}}>
             <div id="messageMe-button_text" className="modal-button_text pill-button_text">Resume</div>
           </Badge>
 
