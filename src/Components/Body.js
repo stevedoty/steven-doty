@@ -183,8 +183,8 @@ let accordionItems = [
 function Body() {
   return (
     <div className="App-body">
-      <div className="banner" style={{textAlign:"center", padding:"40px 0 20px 0"}}>
-        <p>Full-stack developer. Build your idea now.</p>
+      <div className="banner" style={{textAlign:"center", padding:"40px 6px 20px 6px", fontSize:"110%"}}>
+        <p>Full-stack development. Build your idea now.</p>
           <div className="modal-container" style={{width: "100%"}}>
             <ResumeModal />
             <MessageMeModal />
@@ -193,80 +193,60 @@ function Body() {
 
       <div>
 
-              <Card className="section" style={{float:"left"}}>
-                <Card.Header className="section-header" style={{textAlign:"center"}}>
-                  Skills
-                </Card.Header>
-
-                  <Card.Body style={{backgroundColor:"#343a40"}}>
-                      {skillColorIcons.map((skillIcon, j) => {return(
-
-                        <div style={{width:"85px", textAlign:"center"}}>
-                          <span style={{color:"white"}}>{skillIcon.iconTitle}</span>
-                          <br/>
-                          <Icon
-                            icon={skillIcon.iconLogo}
-                            style={{
-                              backgroundColor:"white",
-                              borderRadius:"25%",
-                              padding:"10px",
-                              height:"62px",
-                              width:"62px"
-                          }}/>
-
-                        </div>
-                      )})}
-                  </Card.Body>
-
-              </Card>
+            <div className="resume-body">
               <Card className="section" style={{textAlign:"center"}}>
                 <Card.Header className="section-header">
-                  Relevant Projects
+                  Projects
                 </Card.Header>
 
-                  <Card.Body style={{backgroundColor:"#343a40", height:"500px", color:"white", textAlign:"left"}}>
-                    <h2><b>eBay Skin-React & Skin-CSS,</b></h2><h6>Summer 2020</h6>
+                  <Card.Body className="resume-body">
+                    <h5><b>eBay Skin-React & Skin-CSS,</b></h5><h6>Summer 2020</h6>
                     <p>Skin-React eases the use of the original skin for developers condensing it into React-styled components.</p>
                       <p>Scalability, developer performance, and profits all benefit</p>
                       <p>https://github.com/eBay/skin-react Website</p>
-                    <h2><b>Helping Families in Silicon Valley,</b></h2><h6>Spring 2019 - Present</h6>
-                    <ul>
-                      <li>Refactored to React</li>
-                      <li>Maintain and update website</li>
-                      <li>http://www.helpingfamiliesisn.org/</li>
-                    </ul>
 
+                    <h5><b>Helping Families in Silicon Valley,</b></h5>
+                    <h6>Spring 2019 - Present</h6>
+                      <p>Refactored to React</p>
+                      <p>Maintain and update website</p>
+                      <p style={{width:"100%", fontSize:"", margin:"0.5rem 0"}}>
+                        <u>http://www.helpingfamiliesisn.org/</u>
+                      </p>
+
+                  <div className="pills">
                     <Badge className="pill-button" pill>
                       <div className="pill-button_text">github</div>
                     </Badge>
                     <Badge className="pill-button" pill>
                       <div className="pill-button_text">github.io</div>
                     </Badge>
+                  </div>
                   </Card.Body>
 
               </Card>
               <Card className="section" style={{textAlign:"center"}}>
                 <Card.Header className="section-header">
-                  Relevant XP
+                  Xperience
                 </Card.Header>
 
-                  <Card.Body style={{backgroundColor:"#343a40", height:"600px", color:"white", textAlign:"left"}}>
-                  <h2><b>Front-End Software Developer,</b></h2> <h6>eBay, Mountain View CA</h6>
+                  <Card.Body className="resume-body">
+                    <h5><b>Front-End Software Developer,</b></h5>
+                    <h6><b>eBay, Mountain View CA</b></h6>
+                      <h6>Skin-React and Skin-CSS</h6>
+                      <p>Maintained scalability and responsiveness throughout my involvement.</p>
+                      <p>Refactored existing javascript components with typescript.</p>
+                      <p>Used typescript to build react components and create an easy to use platform.</p>
+                      <p>Increased accessibility by 12% and performance by 7%.</p>
+                      <p>Maintained live UI error detection.</p>
 
-                    <p>Skin-React and Skin-CSS</p>
-                    <p>Maintained scalability and responsiveness throughout my involvement.</p>
-                    <p>Refactored existing javascript components with typescript.</p>
-                    <p>Used typescript to build react components and create an easy to use platform.</p>
-                    <p>Increased accessibility by 12% and performance by 7%.</p>
-                    <p>Maintained live UI error detection.</p>
+                    <h5><b>Woodworker & Finish Carpenter,</b></h5>
+                    <h6><b>AW Construction, Atherton California</b></h6>
 
-                  <h2><b>Woodworker & Finish Carpenter,</b></h2> <h6>AW Construction, Atherton CA</h6>
-
-                    <p>Helped in a family friend’s company after college.</p>
-                    <p>Became youngest project manager and increased profits 8%</p>
-                    <p>Build beautiful wood furniture with extreme precision and minimal waste.</p>
-                    <p>Optimized team workflow utilizing each member’s strengths to full potential.</p>
-                    <p>Managed multiple projects while working on the field in the most expensive homes.</p>
+                      <p>Helped in a family friend’s company after college.</p>
+                      <p>Became youngest project manager and increased profits 8%</p>
+                      <p>Build beautiful wood furniture with extreme precision and minimal waste.</p>
+                      <p>Optimized team workflow utilizing each member’s strengths to full potential.</p>
+                      <p>Managed multiple projects while working on the field in the most expensive homes.</p>
 
                   <Badge className="pill-button" pill>
                     <div className="pill-button_text">more info...</div>
@@ -274,19 +254,21 @@ function Body() {
                   </Card.Body>
 
               </Card>
-              <Card className="section" style={{textAlign:"center"}}>
+              <Card className="section" style={{textAlign:"center", height:"auto"}}>
                 <Card.Header className="section-header" style={{fontSize:"158%"}}>
                   Educación
                 </Card.Header>
 
-                  <Card.Body style={{backgroundColor:"#343a40", height:"200px", color:"white", textAlign:"left"}}>
-                  <h2><b>BS Electrical Engineering</b></h2>
-                  <h6>San Jose State Univerity, San Jose CA</h6>
-                  <h2><b>AS Engineering</b></h2>
-                  <h6>Cañada College, Redwood City CA</h6>
+                  <Card.Body className="resume-body">
+                  <h5><b>BS Electrical Engineering</b></h5>
+                  <h6>San Jose State Univerity, San Jose California</h6>
+                  <h5><b>AS General Engineering</b></h5>
+                  <h6>Cañada College, Redwood City California</h6>
+                  <h6>Cuesta College, San Luis Obispo California</h6>
                   </Card.Body>
 
               </Card>
+            </div>
 
       </div>
     </div>

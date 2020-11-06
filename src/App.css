@@ -1,7 +1,10 @@
+.App{
+  position: relative;
+  height: 100%;
+}
 .App-body{
    background-color:#007bff;
    color:white;
-   width:100%;
 }
 .navbar_contacts {
   float:left;
@@ -19,11 +22,14 @@
 .modal-button{
   position: relative;
 }
-
+.pills{
+  text-align: center;
+  margin: auto;
+}
 .pill-button{
   background-color:white;
   color:#343a40;
-  margin: 0 38px;
+  margin-top: 0.5rem;
 }
 .pill-button:hover{
   cursor:pointer;
@@ -31,9 +37,47 @@
 .pill-button_text{
   padding: 5px 10px;
 }
+.resume-body{
+  height: auto;
+  text-align:center;
+  color:white;
+  background-color:#343a40;
+}
+.section-container{
+  width:100vw;
+  height:auto;
+  position:relative;
+}
+.section{
+  width: 100%;
+
+}
 .section-header{
+  padding:0.38rem 0;
   font-family: cursive;
   font-size: 1.68rem;
   font-weight: lighter;
   color: #343a40;
+  text-align: center;
+  width:100%;
+}
+.section-body{
+   background-color:#343a40;
+}
+
+.skill-color-icon_container{
+   text-align: center;
+   width:85px;
+   color:white;
+   float: left;
+}
+.skill-color-icon{
+  background-color:white;
+  border-radius:25%;
+  padding:10px;
+  height:55px;
+  width:55px;
+}
+.App-footer{
+  height: auto;
 }

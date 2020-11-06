@@ -57,18 +57,19 @@ class Header extends Component {
     return (
       <div className="App-header">
 
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg" style={{paddingBottom:"0"}}>
           <Navbar.Brand
             href="#home"
             style={{
-              fontSize:"160%",
-              marginLeft:"1rem",
+              fontSize:"205%",
+              marginLeft:"0.5rem",
+              paddingBottom:"0",
               marginRight:"0rem",
               fontFamily:"Palatino-Bolditalic",
               letterSpacing:"0.38rem",
               float:"left",}}>SD</Navbar.Brand>
 
-          <Navbar.Toggle aria-controls="basic-navbar-nav" style={{float:"left", border:"none", padding:"none"}}/>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" style={{float:"left", border:"none", padding:"none", margin:"0 0 0.125rem 0"}}/>
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
@@ -86,7 +87,7 @@ class Header extends Component {
           </Navbar.Collapse>
         </Navbar>
 
-        <div className="navbar_contacts" style={{}}>
+        <div className="navbar_contacts" style={{padding:"0 0 0.25rem 0"}}>
 
           {contactIcons.map((contact, i)=>{
             return (
