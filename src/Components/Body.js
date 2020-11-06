@@ -197,6 +197,36 @@ function Body() {
               <Card className="section" style={{textAlign:"center"}}>
                 <Card.Header className="section-header">
                   Projects
+                  <div className="projects_icons" style={{padding:"0 0 0.25rem 0"}}>
+
+
+
+                          <div
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
+
+
+                          <div
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
+
+
+                          <div
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
+
+
+                          <div
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
+
+
+                          <div
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
+
+
+                          <div
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
+
+
+
+                  </div>
                 </Card.Header>
 
                   <Card.Body className="resume-body">
