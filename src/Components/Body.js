@@ -201,17 +201,19 @@ function Body() {
 
                   <Card.Body className="resume-body">
                     <h5><b>eBay Skin-React & Skin-CSS,</b></h5><h6>Summer 2020</h6>
-                    <p>Skin-React eases the use of the original skin for developers condensing it into React-styled components.</p>
-                      <p>Scalability, developer performance, and profits all benefit</p>
-                      <p>https://github.com/eBay/skin-react Website</p>
-
+                      <br/>
+                      <i><p>Skin-React eases the use of the original skin for developers condensing it into React-styled components.</p></i>
+                      <i><p>Scalability, developer performance, and profits all benefit</p></i>
+                      <i><p>https://github.com/eBay/skin-react Website</p></i>
+                      <br/>
                     <h5><b>Helping Families in Silicon Valley,</b></h5>
                     <h6>Spring 2019 - Present</h6>
-                      <p>Refactored to React</p>
-                      <p>Maintain and update website</p>
-                      <p style={{width:"100%", fontSize:"", margin:"0.5rem 0"}}>
+                      <br/><br/>
+                      <i><p>Refactored to React</p></i>
+                      <i><p>Maintain and update website</p></i>
+                      <i><p style={{width:"100%", fontSize:"", margin:"0.5rem 0"}}>
                         <u>http://www.helpingfamiliesisn.org/</u>
-                      </p>
+                      </p></i>
 
                   <div className="pills">
                     <Badge className="pill-button" pill>
@@ -233,20 +235,21 @@ function Body() {
                     <h5><b>Front-End Software Developer,</b></h5>
                     <h6><b>eBay, Mountain View CA</b></h6>
                       <h6>Skin-React and Skin-CSS</h6>
-                      <p>Maintained scalability and responsiveness throughout my involvement.</p>
-                      <p>Refactored existing javascript components with typescript.</p>
-                      <p>Used typescript to build react components and create an easy to use platform.</p>
-                      <p>Increased accessibility by 12% and performance by 7%.</p>
-                      <p>Maintained live UI error detection.</p>
-
+                      <br/>
+                      <i><p>Maintained scalability and responsiveness throughout my involvement.</p></i>
+                      <i><p>Refactored existing javascript components with typescript.</p></i>
+                      <i><p>Used typescript to build react components and create an easy to use platform.</p></i>
+                      <i><p>Increased accessibility by 12% and performance by 7%.</p></i>
+                      <i><p>Maintained live UI error detection.</p></i>
+                      <br/>
                     <h5><b>Woodworker & Finish Carpenter,</b></h5>
                     <h6><b>AW Construction, Atherton California</b></h6>
-
-                      <p>Helped in a family friend’s company after college.</p>
-                      <p>Became youngest project manager and increased profits 8%</p>
-                      <p>Build beautiful wood furniture with extreme precision and minimal waste.</p>
-                      <p>Optimized team workflow utilizing each member’s strengths to full potential.</p>
-                      <p>Managed multiple projects while working on the field in the most expensive homes.</p>
+                    <br/>
+                      <i><p>Helped in a family friend’s company after college.</p></i>
+                      <i><p>Became youngest project manager and increased profits 8%</p></i>
+                      <i><p>Build beautiful wood furniture with extreme precision and minimal waste.</p></i>
+                      <i><p>Optimized team workflow utilizing each member’s strengths to full potential.</p></i>
+                      <i><p>Managed multiple projects while working on the field in the most expensive homes.</p></i>
 
                   <Badge className="pill-button" pill>
                     <div className="pill-button_text">more info...</div>
@@ -262,6 +265,7 @@ function Body() {
                   <Card.Body className="resume-body">
                   <h5><b>BS Electrical Engineering</b></h5>
                   <h6>San Jose State Univerity, San Jose California</h6>
+                  <br/>
                   <h5><b>AS General Engineering</b></h5>
                   <h6>Cañada College, Redwood City California</h6>
                   <h6>Cuesta College, San Luis Obispo California</h6>
