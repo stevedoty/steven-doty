@@ -184,7 +184,7 @@ function Body() {
   return (
     <div className="App-body">
       <div className="banner" style={{textAlign:"center", padding:"40px 6px 20px 6px", fontSize:"110%"}}>
-        <p>Full-stack development. Build your idea now.</p>
+        <p>FULL-STACK SOLUTIONS</p>
           <div className="modal-container" style={{width: "100%"}}>
             <ResumeModal />
             <MessageMeModal />
@@ -195,62 +195,57 @@ function Body() {
 
             <div className="resume-body">
               <Card className="section" style={{textAlign:"center"}}>
-                <Card.Header className="section-header">
+                <Card.Header className="section-header" style={{padding:"0.5rem", textAlign:"center"}}>
                   Projects
-                  <div className="projects_icons" style={{padding:"0 0 0.25rem 0"}}>
+                  <br/>
 
+                          <div
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
                           <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
                           <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
                           <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
                           <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
                           <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
+                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
-                          <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"20px", color:"white"}}>0</div>
-
-
-
-                  </div>
                 </Card.Header>
 
                   <Card.Body className="resume-body">
-                    <h5><b>eBay Skin-React & Skin-CSS,</b></h5><h6>Summer 2020</h6>
-                      <br/>
-                      <i><p>Skin-React eases the use of the original skin for developers condensing it into React-styled components.</p></i>
-                      <i><p>Scalability, developer performance, and profits all benefit</p></i>
+                    <h5><b>eBay Skin-React & Skin-CSS</b></h5>
+                    <h6>SUMMER 2020</h6>
+                      <i><p>Original Skin into React</p></i>
+                      <i><p>Scalable</p></i>
                       <i><p>https://github.com/eBay/skin-react Website</p></i>
                       <br/>
-                    <h5><b>Helping Families in Silicon Valley,</b></h5>
-                    <h6>Spring 2019 - Present</h6>
-                      <br/><br/>
-                      <i><p>Refactored to React</p></i>
-                      <i><p>Maintain and update website</p></i>
+                    <h5><b>Helping Families in Silicon Valley</b></h5>
+                    <h6>SPRING 2019 - PRESENT</h6>
+                      <i><p>Built with React</p></i>
+                      <i><p>Maintaining the website</p></i>
                       <i><p style={{width:"100%", fontSize:"", margin:"0.5rem 0"}}>
                         <u>http://www.helpingfamiliesisn.org/</u>
                       </p></i>
 
                   <div className="pills">
                     <Badge className="pill-button" pill>
-                      <div className="pill-button_text">github</div>
+                      <div className="pill-button_text">GITHUB</div>
                     </Badge>
                     <Badge className="pill-button" pill>
-                      <div className="pill-button_text">github.io</div>
+                      <div className="pill-button_text">PROJECTS</div>
                     </Badge>
                   </div>
                   </Card.Body>
@@ -262,24 +257,21 @@ function Body() {
                 </Card.Header>
 
                   <Card.Body className="resume-body">
-                    <h5><b>Front-End Software Developer,</b></h5>
-                    <h6><b>eBay, Mountain View CA</b></h6>
-                      <h6>Skin-React and Skin-CSS</h6>
-                      <br/>
-                      <i><p>Maintained scalability and responsiveness throughout my involvement.</p></i>
-                      <i><p>Refactored existing javascript components with typescript.</p></i>
-                      <i><p>Used typescript to build react components and create an easy to use platform.</p></i>
+                    <h5><b>Front-End Software Developer Apprentice</b></h5>
+                    <h6><b>eBay, Mountain View California</b></h6>
+                      <h6>Skin-React & Skin-CSS</h6>
+                      <i><p>Scalable & Responsive</p></i>
+                      <i><p>Built with Typescript</p></i>
+                      <i><p>Easy User Platform.</p></i>
                       <i><p>Increased accessibility by 12% and performance by 7%.</p></i>
                       <i><p>Maintained live UI error detection.</p></i>
-                      <br/>
-                    <h5><b>Woodworker & Finish Carpenter,</b></h5>
+                    <h5><b>Woodwork & Finish Carpentry</b></h5>
                     <h6><b>AW Construction, Atherton California</b></h6>
-                    <br/>
-                      <i><p>Helped in a family friend’s company after college.</p></i>
-                      <i><p>Became youngest project manager and increased profits 8%</p></i>
-                      <i><p>Build beautiful wood furniture with extreme precision and minimal waste.</p></i>
-                      <i><p>Optimized team workflow utilizing each member’s strengths to full potential.</p></i>
-                      <i><p>Managed multiple projects while working on the field in the most expensive homes.</p></i>
+                      <i><p>Work After College</p></i>
+                      <i><p>Experience in Project Management</p></i>
+                      <i><p>Upscale Handmade Woodworking & Construction</p></i>
+                      <i><p>Maintained Team Workflow</p></i>
+                      <i><p>Multimillion homes</p></i>
 
                   <Badge className="pill-button" pill>
                     <div className="pill-button_text">more info...</div>
@@ -293,12 +285,13 @@ function Body() {
                 </Card.Header>
 
                   <Card.Body className="resume-body">
-                  <h5><b>BS Electrical Engineering</b></h5>
-                  <h6>San Jose State Univerity, San Jose California</h6>
+                  <h5>Bachelor's Electrical Engineering</h5>
+                  <i><h6>San Jose State Univerity, San Jose California</h6></i>
                   <br/>
-                  <h5><b>AS General Engineering</b></h5>
-                  <h6>Cañada College, Redwood City California</h6>
-                  <h6>Cuesta College, San Luis Obispo California</h6>
+                  <h5>Associate's General Engineering</h5>
+                  <i><h6>Cañada College, Redwood City California</h6></i>
+                  <i><h6>&</h6></i>
+                  <i><h6>Cuesta College, San Luis Obispo California</h6></i>
                   </Card.Body>
 
               </Card>

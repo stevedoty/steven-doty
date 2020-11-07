@@ -228,9 +228,10 @@ class Footer extends Component {
         <div className="section-container">
 
 
-                    <Card className="section">
+                    <Card className="section" >
 
-                        <Card.Body className="section-body" style={{paddingLeft: "10%"}}>
+                        <Card.Body className="section-body" style={{padding:"0.5rem 0.5rem 0.75rem 0.5rem"}}>
+                          <div>
                             {skillColorIcons.map((skillIcon, j) => {return(
 
                               <div className="skill-color-icon_container">
@@ -240,6 +241,7 @@ class Footer extends Component {
 
                               </div>
                             )})}
+                          </div>
                         </Card.Body>
 
                         <Card.Header className="section-header">

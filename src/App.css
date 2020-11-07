@@ -63,18 +63,21 @@
 }
 .section-body{
    background-color:#343a40;
+   padding: 0;
 }
 
 .skill-color-icon_container{
    text-align: center;
-   width:85px;
+   width:65px;
    color:white;
+   font-size:80%;
    float: left;
+   margin: auto;
 }
 .skill-color-icon{
   background-color:white;
-  border-radius:25%;
-  padding:10px;
+  border-radius:20%;
+  padding:5px;
   height:55px;
   width:55px;
 }
