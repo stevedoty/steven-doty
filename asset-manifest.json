@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/steven-doty/static/css/main.71aa5be1.chunk.css",
+    "main.js": "/steven-doty/static/js/main.44e9e8eb.chunk.js",
+    "main.js.map": "/steven-doty/static/js/main.44e9e8eb.chunk.js.map",
+    "runtime-main.js": "/steven-doty/static/js/runtime-main.c1e39bc4.js",
+    "runtime-main.js.map": "/steven-doty/static/js/runtime-main.c1e39bc4.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/steven-doty/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.731bb099.chunk.js": "/steven-doty/static/js/2.731bb099.chunk.js",
+    "static/js/2.731bb099.chunk.js.map": "/steven-doty/static/js/2.731bb099.chunk.js.map",
+    "index.html": "/steven-doty/index.html",
+    "precache-manifest.3e6c3557e042a44f97c1019070cbb24f.js": "/steven-doty/precache-manifest.3e6c3557e042a44f97c1019070cbb24f.js",
+    "service-worker.js": "/steven-doty/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/steven-doty/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.71aa5be1.chunk.css.map": "/steven-doty/static/css/main.71aa5be1.chunk.css.map",
+    "static/js/2.731bb099.chunk.js.LICENSE.txt": "/steven-doty/static/js/2.731bb099.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1e39bc4.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.731bb099.chunk.js",
+    "static/css/main.71aa5be1.chunk.css",
+    "static/js/main.44e9e8eb.chunk.js"
+  ]
+}
