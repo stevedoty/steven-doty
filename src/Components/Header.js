@@ -45,13 +45,7 @@ class Header extends Component {
     }
   }
 
-  handleContactClick(event){
-    let contact = event.target.parentNode.contact;
-    console.log(contact);
-    // if (contactName === "mail") {
-    //   console.log("mail");
-    // }
-  }
+
   render(){
 
     return (

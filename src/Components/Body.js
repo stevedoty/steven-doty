@@ -271,7 +271,7 @@ function Body() {
                       <i><p>Experience in Project Management</p></i>
                       <i><p>Upscale Handmade Woodworking & Construction</p></i>
                       <i><p>Maintained Team Workflow</p></i>
-                      <i><p>Multimillion homes</p></i>
+                      <i><p>Multimillion Dollar Homes</p></i>
 
                   <Badge className="pill-button" pill>
                     <div className="pill-button_text">more info...</div>
