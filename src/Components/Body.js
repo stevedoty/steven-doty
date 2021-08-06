@@ -30,27 +30,33 @@ function Body() {
                   <br/>
 
                           <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
+                            style={{height:"45px", width:"45px", backgroundColor:"black",
+                             borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
                           <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
+                            style={{height:"45px", width:"45px", backgroundColor:"black",
+                             borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
                           <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
+                            style={{height:"45px", width:"45px", backgroundColor:"black",
+                             borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
                           <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
+                            style={{height:"45px", width:"45px", backgroundColor:"black",
+                             borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
                           <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
+                            style={{height:"45px", width:"45px", backgroundColor:"black",
+                             borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
                           <div
-                            style={{height:"45px", width:"45px", backgroundColor:"black", borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
+                            style={{height:"45px", width:"45px", backgroundColor:"black",
+                             borderRadius:"25%", float:"left", margin:"5px", color:"white"}}>0</div>
 
 
                 </Card.Header>

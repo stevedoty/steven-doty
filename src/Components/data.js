@@ -31,119 +31,124 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 export const MAINDATA = {
+skills:[],
+experience:[],
+projects:[],
+education:[],
+
 skillColorIcons: [
     {
       iconTitle:"Git",
       iconLogo:gitIcon
-    },//git
+    },
     {
       iconTitle:"React",
       iconLogo:reactIcon
-    },//react
+    },
     {
       iconTitle:"Redux",
       iconLogo:reduxIcon
-    },//redux
+    },
     {
       iconTitle:"ES6",
       iconLogo:es6Icon
-    },//es6
+    },
     {
       iconTitle:"JavaScript",
       iconLogo:javascriptIcon
-    },//js
+    },
     {
       iconTitle:"TypeScript",
       iconLogo:typescriptIcon
-    },//ts
+    },
     {
       iconTitle:"jQuery",
       iconLogo:jqueryIcon
-    },//jQuery
+    },
     {
       iconTitle:"HTML5",
       iconLogo:html5Icon
-    },//html
+    },
     {
       iconTitle:"CSS3",
       iconLogo:css3Icon
-    },//css
+    },
     {
       iconTitle:"Sass",
       iconLogo:sassIcon
-    },//sass
+    },
     {
       iconTitle:"Bootstrap",
       iconLogo:bootstrapIcon
-    },//bootstrap
+    },
     {
       iconTitle:"Node.js",
       iconLogo:nodejsIcon
-    },//node
+    },
     {
       iconTitle:"Express",
       iconLogo:expressIcon
-    },//express
+    },
     {
       iconTitle:"MongoDB",
       iconLogo:mongodbIcon
-    },//mongodb
+    },
     {
       iconTitle:"Stripe",
       iconLogo:stripeIcon
-    },//stripe
+    },
     {
       iconTitle:"Firebase",
       iconLogo:firebaseIcon
-    },//firebase
+    },
     {
       iconTitle:"graphQL",
       iconLogo:graphqlIcon
-    },//graphQL
+    },
     {
       iconTitle:"Gatsby",
       iconLogo:gatsbyIcon
-    },//gatsby
+    },
     {
       iconTitle:"Flutter",
       iconLogo:flutterIcon
-    },//flutter
+    },
     {
       iconTitle:"Dart",
       iconLogo:dartIcon
-    },//dart
+    },
     {
       iconTitle:"Python",
       iconLogo:pythonIcon
-    },//python
+    },
     {
       iconTitle:"Java",
       iconLogo:javaIcon
-    },//java
+    },
     {
       iconTitle:"Vue.js",
       iconLogo:vueIcon
-    },//vue
+    },
     {
       iconTitle:"Rest",
       iconLogo:restIcon
-    },//rest
+    },
     {
       iconTitle:"Kotlin",
       iconLogo:kotlinIcon
-    },//kotlin
+    },
     {
       iconTitle:"C",
       iconLogo:cIcon
-    },//c
+    },
     {
       iconTitle:"MySQL",
       iconLogo:mysqlIcon
-    },//mysql
+    },
     {
       iconTitle:"Docker",
       iconLogo:dockerIcon
-    },//docker
+    },
 ],
 accordionItems: [
     {
