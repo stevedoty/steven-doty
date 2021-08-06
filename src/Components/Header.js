@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button} from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -34,8 +28,6 @@ let contactIcons = [
     icon:faLinkedin
   },
 ]
-
-
 
 class Header extends Component {
   constructor(props){
