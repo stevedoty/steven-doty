@@ -6,30 +6,9 @@ import {Accordion, Card, Button, Badge} from 'react-bootstrap'
 import { Icon, InlineIcon } from '@iconify/react'
 import dockerIcon from '@iconify/icons-logos/docker'
 
-let skillColorIcons = MAINDATA.skillColorIcons
-let accordionItems = [
-{
-  title:"Skills",
-  body:"skill icons & labels"
-},
-{
-  title:"Projects",
-  body:"project card tiles"
-},
-{
-  title:"Experience",
-  body:"AW Construction 2014-2020. After school I began as an independent contractor in fine woodworking & carpentry"
-},
-{
-  title:"Education",
-  body:"Education timeline"
-},
-{
-  title:"Bio",
-  body:"Bio profile"
-}
-]
 
+let skillColorIcons = MAINDATA.skillColorIcons
+let accordionItems = MAINDATA.accordionItems
 
 function Body() {
   return (

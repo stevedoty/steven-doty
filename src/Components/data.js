@@ -26,10 +26,12 @@ import kotlinIcon from '@iconify/icons-logos/kotlin'
 import cIcon from '@iconify/icons-logos/c'
 import mysqlIcon from '@iconify/icons-logos/mysql'
 import dockerIcon from '@iconify/icons-logos/docker'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 export const MAINDATA = {
-  skillColorIcons: [
+skillColorIcons: [
     {
       iconTitle:"Git",
       iconLogo:gitIcon
@@ -142,8 +144,51 @@ export const MAINDATA = {
       iconTitle:"Docker",
       iconLogo:dockerIcon
     },//docker
-  ],
-  otherKey:"other-value"
+],
+accordionItems: [
+    {
+      title:"Skills",
+      body:"skill icons & labels"
+    },
+    {
+      title:"Projects",
+      body:"project card tiles"
+    },
+    {
+      title:"Experience",
+      body:"AW Construction 2014-2020. After school I began as an independent contractor in fine woodworking & carpentry"
+    },
+    {
+      title:"Education",
+      body:"Education timeline"
+    },
+    {
+      title:"Bio",
+      body:"Bio profile"
+    }
+],
+contactIcons: [
+    {
+      name:"Email",
+      link:"stevedoty16@gmail.com",
+      icon:faEnvelope
+    },
+    {
+      name:"Phone",
+      link:"6508983401",
+      icon:faPhone
+    },
+    {
+      name:"GitHub",
+      link:"https://github.com/stevedoty",
+      icon:faGithub
+    },
+    {
+      name:"LinkedIn",
+      link:"https://www.linkedin.com/in/steven-doty-256b4459/",
+      icon:faLinkedin
+    },
+]
 }
 
 export default MAINDATA;
